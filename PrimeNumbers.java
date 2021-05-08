@@ -16,22 +16,23 @@ public class PrimeNumbers {
 					// Print 'Not a Prime' when the condition doesn't match 
 		
 		
-		int n=14; 
+		int n=22; 
 		boolean flag=false;
 		for (int i=2; i<=n/2; i++) {
 			if(n%i==0) {
-				System.out.println("Number is Not a Primenumber");
 				flag=true;
 				break;
-			}
-			if(flag==false) {
-				System.out.println("Number is Prime number");
-				break;
+			} }
+			if(flag==false) 
+			{
+				System.out.println( n + " : Number is Prime number"); 
+				}
+				else
+					System.out.println(n + ": Not a Prime");
+				
 			}
 			
-		}
 		
 		
 	}
 
-}
